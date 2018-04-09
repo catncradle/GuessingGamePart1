@@ -14,8 +14,8 @@
 
         <div id='headers'>
           <!-- Title and subtitles! -->
-          <h1>Guessing Game</h1>
-          <h3>Guess a number!</h3>
+          <h1 id='title'>Guessing Game</h1>
+          <h3 id='change'>Guess a number!</h3>
         </div>
 
         <div id='main'>
@@ -27,8 +27,7 @@
 
           <div id='guesses'>
             <!-- unordered list of guesses -->
-            <ul>
-              <li class='guess'>-</li>
+            <ul id='guess-list'>
               <li class='guess'>-</li>
               <li class='guess'>-</li>
               <li class='guess'>-</li>
@@ -39,8 +38,8 @@
 
           <div id="menu-btns" class="btn">
             <!-- reset and hint buttons -->
-            <button type="button" class='btn btn-primary'>Reset</button>
-            <button type="button" class='btn btn-primary'>Hint</button>
+            <button type="button" id='reset' class='btn btn-primary'>Reset</button>
+            <button type="button" id='hint' class='btn btn-primary'>Hint</button>
           </div>
         </div>
       </div>
@@ -64,6 +63,10 @@
 
         </div>
     </div>
-
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src='GuessingGame.js'></script>
   </body>
 </html>

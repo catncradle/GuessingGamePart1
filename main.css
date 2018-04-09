@@ -16,7 +16,7 @@
   img {
       display: inline;
       width: 200px;
-      height: 100px;
+      /* height: 100px; */
   }
   #footer {
       width: 100%;
